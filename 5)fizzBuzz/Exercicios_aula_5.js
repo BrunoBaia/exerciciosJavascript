@@ -39,8 +39,3 @@ function fizzBuzz (num) {
 for (let i = 0; i < 101; i++) {
     console.log(i, fizzBuzz(i));
 }
-
-
-// Dicas extras
-
-// Dentro da funcao fizzBuzz, ao inves de usar 'isNaN(number)' pode usar 'typeof num !== "number"'
